@@ -13,7 +13,7 @@ A quick FNA .Net Native project generator
 1. Download both the .bat file and .py file inside any folder
 2. Open a Developer Command Prompt for VS 2022
 3. Navigate to the directory where you downloaded the previous files
-4. run ```run_this.bat ```
+4. Run ```run_this.bat ```
 5. Enter your project name when required
 6. Wait and enjoy .Net Native 
 
