@@ -8,6 +8,7 @@ A quick FNA .Net Native project generator
 * Python 3.6+
 * Visual studio 2022
 * CMake
+* Git
 ### Installation
 1. Download both the .bat file and .py file inside any folder
 2. Open a Developer Command Prompt for VS 2022
