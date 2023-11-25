@@ -1,5 +1,4 @@
 @echo off
-set project_name=Test 
 set /p project_name=Insert project name: 
 
 IF EXIST FNA3D RMDIR /S /Q FNA3D
