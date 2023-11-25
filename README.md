@@ -16,7 +16,7 @@ A quick FNA .Net Native project generator
 3. Navigate to the directory where you downloaded the previous files
 4. Run ```run_this.bat ```
 5. Enter your project name when required
-6. Wait and enjoy .Net Native 
+6. Wait, open the project folder, run the solution and enjoy .Net Native 
 
 ### Linux Support
 _Coming soooooooooooooon_
