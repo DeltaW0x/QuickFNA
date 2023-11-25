@@ -7,7 +7,7 @@ A quick FNA .Net Native project generator
 **This batch is intended to set up projects from 0, if you already have a project, you'll have to do everything by hand, this script won't help you**
 ### Prerequisites
 
-* .Net 8.0
+* .Net 8.0 & .Net 7.0
 * Python 3.6+
 * Visual studio 2022
 * CMake
