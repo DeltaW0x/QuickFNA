@@ -1,6 +1,6 @@
 # QuickFNA
 A quick FNA .Net Native project generator 
-![Logo](Resources/Logo.ong)
+![Logo](Resources/logo.png)
 
 ## Getting Started
 
