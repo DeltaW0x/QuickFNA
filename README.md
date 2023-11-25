@@ -5,6 +5,7 @@ A quick FNA .Net Native project generator
 ## Getting Started
 ### Prerequisites
 
+* .Net 8.0
 * Python 3.6+
 * Visual studio 2022
 * CMake
