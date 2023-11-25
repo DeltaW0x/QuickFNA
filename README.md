@@ -17,7 +17,7 @@ A quick FNA .Net Native project generator
 2. Open a Developer Command Prompt for VS 2022
 3. Navigate to the directory where you downloaded the previous files
 4. Run ```run_this.bat ```
-5. Enter your project name when required
+5. Enter your project name when required, do not use spaces when naming the project
 6. Wait, open the project folder, run the solution and enjoy .Net Native 
 
 ### Linux Support
