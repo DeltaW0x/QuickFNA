@@ -3,6 +3,8 @@ A quick FNA .Net Native project generator
 ![Logo](Resources/logo.png)
 
 ## Getting Started
+### NOTE:
+**This batch is intended to set up projects from 0, if you already have a project, you'll have to do everything by hand, this script won't help you**
 ### Prerequisites
 
 * .Net 8.0
