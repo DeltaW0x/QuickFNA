@@ -12,7 +12,7 @@ git clone --recursive https://github.com/FNA-XNA/Theorafile.git
 
 curl -OL https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-devel-2.28.5-VC.zip
 Tar -m -xf SDL2-devel-2.28.5-VC.zip
-rm SDL2-devel-2.28.5-VC.zip
+del SDL2-devel-2.28.5-VC.zip
 ren SDL2-2.28.5 SDL2
 
 set SDL2_DIR=..\SDL2
