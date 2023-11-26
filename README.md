@@ -4,7 +4,7 @@ A quick FNA .Net Native project generator
 
 ## Getting Started
 ### NOTE:
-**This batch is intended to set up projects from zero, if you already have a project, you'll have to do everything by hand, this script won't help you**
+**This batch is intended to set up projects from zero, if you already have a project, you'll have to do everything by hand, this script won't help you. You might be able to still generate a .NetNative project and just copy all the code from the old to the new project, but i'm not sure it'll work and i take no responsibilities whatsoever**
 
 ### Windows Prerequisites
 * .Net 8.0 & .Net 7.0
