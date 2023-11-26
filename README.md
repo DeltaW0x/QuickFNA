@@ -21,7 +21,7 @@ A quick FNA .Net Native project generator
 5. Enter your project name when required, do not use spaces when naming the project
 6. Wait, open the project folder, run the solution and enjoy .Net Native 
 
-### ArchLinuxPrerequisites
+### ArchLinux Prerequisites
 * Git
 * All other depencencies are handled by the script
   
