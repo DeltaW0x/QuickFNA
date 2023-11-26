@@ -44,7 +44,7 @@ I only have a setup script for Arch because if you're making builds for Linux, t
 ---
 
 ### MacOS installation
-I'll probably add it in the future, but not many people build for MacOS anyways 
+MacOS support will be added when FNA will unify iOS, tvOS and MacOS
 
 ---
 
