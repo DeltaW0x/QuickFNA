@@ -1,4 +1,4 @@
-@echo off
+
 set /p project_name=Insert project name: 
 
 IF EXIST FNA3D RMDIR /S /Q FNA3D
@@ -14,6 +14,11 @@ curl -OL https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2
 Tar -m -xf SDL2-devel-2.28.5-VC.zip
 del SDL2-devel-2.28.5-VC.zip
 ren SDL2-2.28.5 SDL2
+
+curl -OL https://fna.flibitijibibo.com/archive/fnalibs.tar.bz2
+mkdir fnalibs
+Tar -m -xf fnalibs.tar.bz2 -C fnalibs
+del fnalibs.tar.bz2
 
 set SDL2_DIR=..\SDL2
 
@@ -62,17 +67,19 @@ move /y SDL2\lib\x64\SDL2.lib                        %project_name%/%project_nam
 dotnet build %project_name%/%project_name%/%project_name%.csproj -c Release
 dotnet build %project_name%/%project_name%/%project_name%.csproj -c Debug
 
-copy FNA3D\build\Release\FNA3D.dll  %project_name%\%project_name%\bin\Release\net8.0
-copy FAudio\build\Release\FAudio.dll  %project_name%\%project_name%\bin\Release\net8.0 
-copy Theorafile\visualc\Release\libtheorafile.dll  %project_name%\%project_name%\bin\Release\net8.0
-copy SDL2\lib\x64\SDL2.dll  %project_name%\%project_name%\bin\Release\net8.0
+copy fnalibs\x64\FNA3D.dll  %project_name%\%project_name%\bin\Release\net8.0
+copy fnalibs\x64\FAudio.dll  %project_name%\%project_name%\bin\Release\net8.0 
+copy fnalibs\x64\libtheorafile.dll  %project_name%\%project_name%\bin\Release\net8.0
+copy fnalibs\x64\SDL2.dll  %project_name%\%project_name%\bin\Release\net8.0
 
-copy FNA3D\build\Release\FNA3D.dll  %project_name%\%project_name%\bin\Debug\net8.0
-copy FAudio\build\Release\FAudio.dll  %project_name%\%project_name%\bin\Debug\net8.0 
-copy Theorafile\visualc\Release\libtheorafile.dll  %project_name%\%project_name%\bin\Debug\net8.0
-copy SDL2\lib\x64\SDL2.dll  %project_name%\%project_name%\bin\Debug\net8.0
+copy fnalibs\x64\FNA3D.dll  %project_name%\%project_name%\bin\Debug\net8.0
+copy fnalibs\x64\FAudio.dll  %project_name%\%project_name%\bin\Debug\net8.0 
+copy fnalibs\x64\libtheorafile.dll  %project_name%\%project_name%\Debug\Release\net8.0
+copy fnalibs\x64\SDL2.dll  %project_name%\%project_name%\bin\Debug\net8.0
 
 RMDIR /S /Q FNA3D
 RMDIR /S /Q FAudio
 RMDIR /S /Q Theorafile
 RMDIR /S /Q SDL2
+RMDIR /S /Q fnalibs
+
