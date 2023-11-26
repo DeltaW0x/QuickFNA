@@ -3,7 +3,6 @@ read -p 'Insert project name: ' project_name
 
 sudo pacman -Sy --needed sdl2 sdl2_image sdl2_mixer sdl2_ttf
 sudo pacman -Sy --needed python-pip
-sudo pacman -Sy --needed git
 sudo pacman -Sy --needed cmake
 sudo pacman -Sy --needed make
 sudo pacman -Sy --needed gcc
