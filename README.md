@@ -28,14 +28,14 @@ A quick FNA .Net Native project generator
 * All other depencencies are handled by the script
   
 ### ArchLinux installation
-1. Download all the files in the repo
-2. run ```sudo pacman -Sy git``` if git isn't installed
-3. run ```nano ~/.bash_profile```
-4. add the line ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib```, save and close
-5. run ```source ~/.bash_profile```
-6. open the directory with the repo file
-7. run ```chmod +x setup_linux.sh```
-8. run ```sudo ./setup_linux.sh```
+1. Run ```sudo pacman -Sy git``` if git isn't installed
+2. Clone the repository
+3. Run ```nano ~/.bash_profile```
+4. Add the line ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib```, save and close
+5. Run ```source ~/.bash_profile```
+6. Open the directory with the repo file
+7. Run ```chmod +x setup_linux.sh```
+8. Run ```sudo ./setup_linux.sh```
 9. Enter your project name when required, do not use spaces when naming the project
 10. Wait, open the project folder, run the solution and enjoy .Net Native
 
