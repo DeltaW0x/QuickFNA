@@ -7,6 +7,7 @@ sudo pacman -Sy --needed cmake
 sudo pacman -Sy --needed make
 sudo pacman -Sy --needed gcc
 sudo pacman -Sy --needed wget
+sudo pacman -Sy --needed dotnet-sdk
 
 wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 chmod +x ./dotnet-install.sh
