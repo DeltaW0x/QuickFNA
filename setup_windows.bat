@@ -56,7 +56,7 @@ curl -O https://gist.githubusercontent.com/TheSpydog/53ce4216a1ed5455dbb99d25ed2
 cd ..
 cd ..
 
-python setup_projects_DO_NOT_TOUCH_THIS.py %project_name%
+python leavethisalone.py %project_name%
 
 move /y FNA3D\build\Release\FNA3D.lib                %project_name%/%project_name% 
 move /y FNA3D\build\Release\mojoshader.lib           %project_name%/%project_name% 
