@@ -28,4 +28,6 @@ A quick FNA .Net Native project generator
 5. run ```sudo chmod +x setup_linux.sh```
 6. run ```sudo ./setup_linux.sh```
 7. Enter your project name when required, do not use spaces when naming the project
-8. Wait, open the project folder, run the solution and enjoy .Net Native 
+8. Wait, open the project folder, run the solution and enjoy .Net Native
+
+I only have a setup script for Arch because if you're making a build for linux, it's gonna run on a Steam Deck lol. I personally used [ArchWSL](https://github.com/yuk7/ArchWSL.git) so I could go back and forth between Windows and linux build quickly
