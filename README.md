@@ -30,7 +30,7 @@ A quick FNA .Net Native project generator
 ### ArchLinux installation
 1. Download all the files in the repo
 2. run ```nano ~/.bash_profile```
-3. add the line export ```LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib```, save and close
+3. add the line ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib```, save and close
 4. open the directory with the repo file
 5. run ```sudo chmod +x setup_linux.sh```
 6. run ```sudo ./setup_linux.sh```
