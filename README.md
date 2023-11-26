@@ -39,3 +39,8 @@ A quick FNA .Net Native project generator
 9. Wait, open the project folder, run the solution and enjoy .Net Native
 
 I only have a setup script for Arch because if you're making a build for linux, it's gonna run on a Steam Deck lol. I personally used [ArchWSL](https://github.com/yuk7/ArchWSL.git) so I could go back and forth between Windows and linux build quickly. The actual compiled build are then sent to my Steam Deck for testing
+
+---
+
+### MacOS installation
+I'll probably add it in the future, but not many people build for MacOS anyways 
