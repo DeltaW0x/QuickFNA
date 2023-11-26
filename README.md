@@ -39,7 +39,7 @@ A quick FNA .Net Native project generator
 9. Enter your project name when required, do not use spaces when naming the project
 10. Wait, open the project folder, run the solution and enjoy .Net Native
 
-I only have a setup script for Arch because if you're making builds for Linux, there's a 99.999% probability that those builds are for a Steam Deck lol. I personally used [ArchWSL](https://github.com/yuk7/ArchWSL.git) so I could go back and forth between Windows and Linux builds quickly. The actual compiled builds are then sent to my Steam Deck for testing, i wouldn't recommended running FNA on WSL 
+I only have a setup script for Arch because if you're making builds for Linux, there's 99.999% probability that those builds are for a Steam Deck lol. I personally used [ArchWSL](https://github.com/yuk7/ArchWSL.git) so I could go back and forth between Windows and Linux builds quickly. The actual compiled builds are then sent to my Steam Deck for testing, i wouldn't recommended running FNA on WSL 
 
 ---
 
